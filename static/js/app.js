@@ -34,7 +34,7 @@ function updateMetadata(sample) {
 
         // Add each key-value pair to the panel
         Object.entries(metadata).forEach(([key, value]) => {
-            panel.append("h6").text(`${key.toUpperCase()}: ${value}`);
+            panel.append("h6").text(`${key}: ${value}`);
         });
     });
 }
